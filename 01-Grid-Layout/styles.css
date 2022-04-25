@@ -2,6 +2,17 @@
     display: grid;
 }
 
+*{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+p {
+    color: black;
+}
+
 .container {
     display: grid;
     grid-template: 1fr 1fr 5fr 1fr / 1fr 3fr;
@@ -40,5 +51,4 @@
 .footer{
     grid-area: footer;
     background-color: black;
-    color: white;
 }
